@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import Task from './Task.jsx'
 
 export default function Tasks({ tasks }) {

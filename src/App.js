@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Tasks from './components/Tasks.jsx'
 import './App.css';
+import AddTask from './components/AddTask.jsx';
 
 export default function App() {
 
@@ -18,10 +19,9 @@ export default function App() {
   ]);
 
   return (
-    <>
     <div className="container">
-    <Tasks tasks={tasks} />
+      <AddTask />
+      <Tasks tasks={tasks} />
     </div>
-    </>
   )
 }
