@@ -8,3 +8,35 @@
     color: #eee;
     align-items: center;
 }
+
+.task-title {
+    cursor: pointer;
+}
+
+.task-title:hover {
+    color: chartreuse;
+}
+
+.remove-task-button {
+    cursor: pointer;
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    color: lightcoral;
+}
+
+.remove-task-button:hover {
+    color: lightsalmon;
+}
+
+.see-task-details-button {
+    cursor: pointer;
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+    color: lightseagreen;
+}
+
+.see-task-details-button:hover {
+    color: lightblue;
+}
