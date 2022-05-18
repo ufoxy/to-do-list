@@ -3,6 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from './components/Header.jsx';
+import TaskDetails from './components/TaskDetails.jsx'
 import AddTask from './components/AddTask.jsx';
 import Tasks from './components/Tasks.jsx';
 import './App.css';
@@ -69,6 +70,13 @@ export default function App() {
                 handleTaskDeletion={handleTaskDeletion} />
               </>
             )} />
+
+          <Route 
+          path="/:taskTitle"
+          exact
+          component={TaskDetails}
+          />
+
           </div>
 
       </Router>

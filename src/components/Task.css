@@ -35,6 +35,7 @@
     background-color: rgb(255, 255, 255, 0);
     border: none;
     color: lightseagreen;
+    margin-right: 3px;
 }
 
 .see-task-details-button:hover {
