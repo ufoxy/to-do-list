@@ -9,7 +9,8 @@ export default function Task({ task, handleTaskClick, handleTaskDeletion }) {
     const history = useHistory();
 
     function handleTaskDetailsClick() {
-        history.push(`/${task.title}`)
+        history.push(`/${task.title}`);
+        history.go();
     }
 
     return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 
+
 import Button from './Button';
 import './TaskDetails.css';
 
@@ -9,7 +10,8 @@ function TaskDetails() {
     const history = useHistory();
 
     function handleBackButtonClick() {
-        history.goBack();
+        history.push("/")
+        history.go()
     };
     
     return (
