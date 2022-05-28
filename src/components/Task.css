@@ -7,10 +7,12 @@
     justify-content: space-between;
     color: #eee;
     align-items: center;
+    /* transition: all 0.3s; */
 }
 
 .task-title {
     cursor: pointer;
+    user-select: none;
 }
 
 .task-title:hover {

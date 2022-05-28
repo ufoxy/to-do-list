@@ -8,6 +8,7 @@
     color: #444;
     font-weight: bold;
     cursor: pointer;
+    user-select: none;
     border: none;
     transition: all 0.5s ease;
 }

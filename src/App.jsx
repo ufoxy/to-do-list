@@ -55,7 +55,6 @@ export default function App() {
 
   return (
       <Router >
-
         <div className="container">
           <Header children={"Minhas Tarefas"} />
             <Route
@@ -78,7 +77,6 @@ export default function App() {
           />
 
           </div>
-
       </Router>
   )
 }
