@@ -16,10 +16,12 @@ export default function Task({ task, handleTaskClick, handleTaskDeletion }) {
     return (
         <div 
         className="task-container"
-        onClick={() => handleTaskClick(task.id)}
         style={task.completed ? { borderLeft: "6px solid chartreuse" } : {}}
         >
-            <div className="task-title" onSelect={false} >
+            <div 
+            className="task-title" 
+            onClick={() => handleTaskClick(task.id)} 
+            >
                 {task.title}
             </div>
 
