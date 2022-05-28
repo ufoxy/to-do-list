@@ -82,27 +82,3 @@ export default function App() {
       </Router>
   )
 }
-
-/*
-      <Router >
-          <Routes>
-
-            <Route
-            path="/"
-            exact
-            render={() => (
-              <>
-              <Header children={"Minhas Tarefas"} />
-              <div className="container">
-                <AddTask handleTaskAddition={handleTaskAddition} />
-                <Tasks
-                tasks={tasks}
-                handleTaskClick={handleTaskClick}
-                handleTaskDeletion={handleTaskDeletion} />
-                </div>
-              </>
-            )} />
-
-          </Routes>
-      </Router>
-*/
