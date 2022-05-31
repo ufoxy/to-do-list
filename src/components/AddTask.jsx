@@ -21,7 +21,9 @@ function AddTask({ handleTaskAddition }) {
                 onChange={handleInputChange}
                 value={inputData}
                 className="add-task-input"
-                type="text" />
+                type="text"
+                placeholder="Insira um título para a tarefa"
+                />
                 <div className="add-task-button-container">
                     <Button onClick={handleAddTaskClick}>Adicionar</Button>
                 </div>

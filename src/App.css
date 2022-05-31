@@ -1,9 +1,14 @@
+.app {
+    border-top: 15px solid #D9434F;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
 .container {
-    max-width: 500px;
-    margin: 30px auto;
+    max-width: 650px;
+    margin: 50px auto;
     overflow: auto;
     min-height: 300px;
-    border: 2px solid chartreuse;
-    padding: 30px;
+    padding: 45px;
     border-radius: 10px;
 }

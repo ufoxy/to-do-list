@@ -13,7 +13,7 @@ export default function App() {
   const [tasks, setTasks] = useState([
     {
       id: "1",
-      title: "Estudar Programação",
+      title: "Estudar Javascript",
       completed: false,
     }, 
     {
@@ -55,7 +55,7 @@ export default function App() {
 
   return (
       <Router >
-        <div className="container">
+        <div className="app container">
           <Header children={"Minhas Tarefas"} />
             <Route
             path="/"
