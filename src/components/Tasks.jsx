@@ -3,14 +3,11 @@ import Task from './Task.jsx'
 
 export default function Tasks({ tasks, handleTaskClick, handleTaskDeletion }) {
 
-    // console.log(tasks)
-    // console.log('oi')
-
     return (
-        <>
+        <div style={{marginTop: 20}}>
             {tasks.map((task) => (
             <Task task={task} handleTaskClick={handleTaskClick} handleTaskDeletion={handleTaskDeletion} />
             ))}
-        </>
+        </div>
     )
 }

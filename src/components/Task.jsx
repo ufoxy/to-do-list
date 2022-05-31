@@ -16,13 +16,24 @@ export default function Task({ task, handleTaskClick, handleTaskDeletion }) {
     return (
         <div 
         className="task-container"
-        style={task.completed ? { borderLeft: "6px solid chartreuse" } : {}}
+        style={ task.completed ? { backgroundColor: '#eee' } : {} }
         >
-            <div 
-            className="task-title" 
-            onClick={() => handleTaskClick(task.id)} 
+
+            <div
+            className="title-and-checkbox-container"
             >
-                {task.title}
+                <input 
+                type="checkbox" 
+                checked={ task.completed ? true : false }
+                onClick={() => handleTaskClick(task.id)}
+                />
+                <span
+                className="task-title"
+                style={ task.completed ? { textDecoration: 'line-through', color: '#0000007c' } : {} }
+                onClick={() => handleTaskClick(task.id)}
+                >
+                    {task.title}
+                </span>
             </div>
 
             <div className="buttons-container">
