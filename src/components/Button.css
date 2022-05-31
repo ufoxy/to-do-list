@@ -1,11 +1,11 @@
 .button {
-    background-color: chartreuse;
+    background-color: #D9434F;
     height: 40px;
     padding: 0 10px;
     border-radius: 5px;
     width: 100%;
     font-size: 16px;
-    color: #444;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     cursor: pointer;
     user-select: none;
@@ -14,6 +14,6 @@
 }
 
 .button:hover {
-    background-color: #444;
-    color: chartreuse;
+    background-color: rgb(224, 35, 35);
+    color: #fff;
 }
