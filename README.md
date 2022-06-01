@@ -4,7 +4,7 @@
 <br>
 
 <div align="center">
-    <img src="https://media.discordapp.net/attachments/891351292780376075/981322823937175572/unknown.png?width=903&height=575" alt="Logo">
+    <img src="https://media.discordapp.net/attachments/891351292780376075/981641615829500074/unknown.png" alt="Logo">
   </a>
 </div>
 
