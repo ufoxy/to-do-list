@@ -21,7 +21,7 @@ Veja como é usado: www.youtube.com.br
 - No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/ufoxy/checkout-page
+git clone https://github.com/ufoxy/to-do-list
 ```
 - Agora instale as dependencias usando:
 ```
