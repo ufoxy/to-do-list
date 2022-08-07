@@ -5,8 +5,7 @@
 <br/>
 
 Um simples To Do List criado para listar tarefas, este projeto tem intuito de ajudar na produtividade.
-
-Veja como é usado: www.youtube.com.br
+<!--- Veja como é usado: www.youtube.com.br -->
 
 ...
 ## Linguagens, dependencias e libs utilizadas 📚
