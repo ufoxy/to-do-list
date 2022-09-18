@@ -15,7 +15,7 @@ const StyledApp = styled.div`
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
   // container //
   max-width: 650px;
-  margin: 50px auto;
+  margin: 10vh auto;
   overflow: auto;
   min-height: 300px;
   padding: 45px;
